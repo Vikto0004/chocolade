@@ -10,7 +10,34 @@ ul{
     list-style: none;
 }
 
-   /*HEADER*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.title{
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.title span{
+    color: #FD9222;
+}
+   /*----HEADER----*/
 
 .header-logo{
     color: #111;
@@ -28,6 +55,278 @@ ul{
     color: #111;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.14; /* 114.286% */
+    line-height: 1.14;
     letter-spacing: -0.02em;
+}
+
+   /*----HERO----*/
+.hero {
+    border-radius: 30px;
+    background: rgba(17, 17, 17, 0.60);
+}
+.hero-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+}
+.hero-button {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.hero-how-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero-scroll-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.03em;
+}
+
+   /*----FEATURS----*/
+
+.featurs {
+    background: #1E1823;
+}
+.featurs-list {
+}
+.featurs-item {
+}
+.featurs-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+.featurs-item-tex {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+
+   /*----TASTE----*/
+
+.taste {
+}
+.taste-title {
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.taste-text {
+    color: #111;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
+}
+.taste-list {
+}
+.taste-item {
+}
+.taste-subtitle {
+    color: #FFF;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.28; /* 128.571% */
+letter-spacing: -0.28px;
+text-transform: uppercase;
+}
+
+.made{
+
+}
+.made-title {
+
+}
+.made-img {
+}
+.made-subtitle {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33; /* 133.333% */
+}
+.made-list {
+}
+.made-item {
+    color: #111;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.28px;
+}
+.made-text {
+}
+
+.products {
+}
+.products-title {
+
+}
+.products-list {
+}
+.products-item {
+}
+.products-img {
+}
+.products-subtitle {
+    color: #111;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33; /* 133.333% */
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.products-text {
+    color: rgba(17, 17, 17, 0.70);
+font-size: 12px;
+font-weight: 400;
+line-height: 1.16; /* 116.667% */
+letter-spacing: -0.24px;
+}
+.products-button {
+    color: #111;
+font-family: inherit;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.sellers {
+}
+.sellers-title {
+}
+.sellers-list {
+}
+.sellers-item {
+}
+.sellers-img {
+}
+.sellers-subtitle {
+    color: #111;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33; /* 133.333% */
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+.loved {
+}
+.loved-title {
+}
+.loved-list {
+}
+.loved-item {
+}
+.loved-img {
+}
+.loved-suntitle {
+    color: #111;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33; /* 133.333% */
+}
+.loved-text {
+    color: rgba(17, 17, 17, 0.70);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.29; /* 128.571% */
+letter-spacing: -0.02em;
+}
+.loved-button {
+    color: #111;
+font-family: inherit;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+}
+
+.footer {
+    background: #1E1823;
+}
+.footer-heading {
+    color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.21;
+letter-spacing: -0.56px;
+}
+.footer-heading span{
+    color: #FD9222;
+}
+.footer-subtitle {
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.29; /* 128.571% */
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-text {
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.29; /* 128.571% */
+}
+.footer-addres {
+}
+.footer-addres-list {
+}
+.footer-addres-item {
+}
+.footer-addres-link {
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.29; /* 128.571% */
+letter-spacing: -0.28px;
+}
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+    color: #FFF;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14; /* 114.286% */
+letter-spacing: -0.02em;
+}
+.footer-button {
+    color: #FFF;
+font-family: inherit;
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
 }
