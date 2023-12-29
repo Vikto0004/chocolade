@@ -66,16 +66,37 @@ button{
     padding-bottom: 32px;
 }
 
+.header-container{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-logo{
     color: #111;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .header-logo-italick{
     font-style: italic;
+}
+
+.header-nav-list{
+    display: flex;
+    gap: 24px;
 }
 
 .header-nav-link{
@@ -84,6 +105,11 @@ button{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.02em;
+}
+
+.header-soc-list{
+    display: flex;
+    gap: 14px;
 }
 
 .container{
@@ -122,19 +148,34 @@ button{
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
+    border-radius: 100px;
+    background: #FD9222;
+    border: none;
+    padding: 14px 40px;
+    margin-right: 14px;
 }
 .hero-how-link {
     color: #FFF;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
+    background: scroll;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    padding: 14px 40px;
 }
+
+.hero-container-link{
+    display: flex;
+}
+
 .hero-scroll-link {
     color: #FFF;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.29; /* 128.571% */
     letter-spacing: -0.03em;
+    margin-left: auto;
 }
 
    /*----FEATURS----*/
@@ -145,10 +186,8 @@ button{
 }
 .featurs-list {
     list-style: none;
-    padding: 0;
-    margin: 0; 
     display: flex;
-    gap: 88px;
+    width: calc((100% - 176px) / 3);
 }
 .featurs-item {
 }
@@ -202,10 +241,12 @@ button{
     padding: 0;
     margin: 0; 
     display: flex;
-    gap: 32px;
+    gap: 24px 32px;
     flex-wrap: wrap;
 }
 .taste-item {
+    border-radius: 15px;
+background: #FD9222;
 }
 .taste-subtitle {
     color: #FFF;
