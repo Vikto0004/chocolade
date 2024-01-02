@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background: #FAFAFA;
 }
 
 h1,
@@ -140,6 +141,7 @@ button{
     margin-bottom: 32px;
     max-width: 484px;
 }
+
 .hero-button {
     color: #FFF;
     font-family: inherit;
@@ -153,6 +155,7 @@ button{
     padding: 14px 40px;
     margin-right: 14px;
 }
+
 .hero-how-link {
     color: #FFF;
     font-size: 14px;
@@ -183,12 +186,17 @@ button{
     background: #1E1823;
     padding: 50px;
 }
+
 .featurs-list {
-    display: flex;  
+    display: flex;
+    flex-wrap: wrap;
     gap: 88px;
 }
+
 .featurs-item{
+    width: calc((100% - 176px) / 3);
 }
+
 .featurs-subtitle {
     color: #FFF;
     font-size: 18px;
@@ -198,6 +206,7 @@ button{
     width: 100%;
     margin-bottom: 18px;
 }
+
 .featurs-item-tex {
     color: rgba(255, 255, 255, 0.70);
     font-size: 14px;
@@ -213,6 +222,7 @@ button{
 .taste {
     padding-top: 120px;
 }
+
 .taste-title {
     color: #111;
     text-align: center;
@@ -224,6 +234,7 @@ button{
     max-width: 412px;
     margin: 0 auto 28px;
 }
+
 .taste-text {
     color: #111;
     text-align: center;
@@ -234,18 +245,23 @@ button{
     max-width: 486px;
     margin: 0 auto;
 }
+
 .taste-list {
-    list-style: none;
-    padding: 0;
-    margin: 0; 
     display: flex;
     gap: 24px 32px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
+
 .taste-item {
     border-radius: 15px;
-background: #FD9222;
+    width: 260px;
+    height: 270px;
+    flex-shrink: 0;
+    background: #FD9222;
+    padding: 28px 23px;
 }
+
 .taste-subtitle {
     color: #FFF;
     font-size: 14px;
@@ -253,27 +269,54 @@ background: #FD9222;
     line-height: 1.28; /* 128.571% */
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin: 36px auto auto 5px;
 }
 
    /*----MADE----*/
 
 .made{
     padding-top: 120px;
-
 }
+
 .made-title {
 
 }
+
+.container-made{
+    display: flex;
+    margin-top: 50px;
+}
+
 .made-img {
 }
+
+.container-made-list{
+    display: block;
+    padding: 32px;
+    margin-left: 20px;
+    background-color: #FFF;
+    border-radius: 15px;
+    width: 516px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 .made-subtitle {
     color: #111;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33; /* 133.333% */
 }
+
 .made-list {
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+    margin-top: 28px;
 }
+
 .made-item {
     color: #111;
     font-size: 14px;
@@ -282,6 +325,7 @@ background: #FD9222;
     line-height: 1.29; /* 128.571% */
     letter-spacing: -0.02em;
 }
+
 .made-text {
 }
 
@@ -290,15 +334,35 @@ background: #FD9222;
 .products {
     padding-top: 120px;
 }
+
 .products-title {
 
 }
+
 .products-list {
+    display: flex;
+    width: 1136px;
+    height: 752px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px 18px;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
+
 .products-item {
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    width: 270px;
+    height: 364px;
+    padding: 32px 20px;
+    text-align: center;
 }
+
 .products-img {
 }
+
 .products-subtitle {
     color: #111;
     font-size: 18px;
@@ -306,7 +370,9 @@ background: #FD9222;
     line-height: 1.33; /* 133.333% */
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-top: 8px;
 }
+
 .products-text {
     color: rgba(17, 17, 17, 0.70);
     font-size: 12px;
@@ -321,6 +387,11 @@ background: #FD9222;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border-radius: 100px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FAFAFA;
+    padding: 8px 20px;
+    margin-top: 18px;
 }
 
    /*----SELLERS----*/
@@ -331,11 +402,25 @@ background: #FD9222;
 .sellers-title {
 }
 .sellers-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
 }
 .sellers-item {
+    border-radius: 0px 0px 15px 15px;
+    border-right: 1px solid rgba(17, 17, 17, 0.10);
+    border-bottom: 1px solid rgba(17, 17, 17, 0.10);
+    border-left: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
 }
 .sellers-img {
 }
+
+.sellers-container-subtitle{
+    text-align: center;
+    padding: 28px;
+}
+
 .sellers-subtitle {
     color: #111;
     font-size: 18px;
@@ -351,14 +436,37 @@ background: #FD9222;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .loved-title {
 }
 .loved-list {
+    display: flex;
+    text-align: center;
+    gap: 28px;
+    margin-top: 50px;
 }
+
 .loved-item {
+
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+    width: 360px;
+    height: 200px;
 }
+
+.loved-cotainer{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
 .loved-img {
 }
+
 .loved-suntitle {
     color: #111;
     text-align: center;
@@ -366,6 +474,12 @@ background: #FD9222;
     font-weight: 600;
     line-height: 1.33; /* 133.333% */
 }
+
+.loved-cotainer-text{
+    display: flex;
+    padding: 24px;
+}
+
 .loved-text {
     color: rgba(17, 17, 17, 0.70);
     text-align: center;
@@ -374,6 +488,7 @@ background: #FD9222;
     line-height: 1.29; /* 128.571% */
     letter-spacing: -0.02em;
 }
+
 .loved-button {
     color: #111;
     font-family: inherit;
@@ -387,6 +502,7 @@ background: #FD9222;
 .footer {
     background: #1E1823;
 }
+
 .footer-heading {
     color: #FFF;
     font-size: 28px;
@@ -395,9 +511,11 @@ background: #FD9222;
     line-height: 1.21;
     letter-spacing: -0.02em;
 }
+
 .footer-heading span{
     color: #FD9222;
 }
+
 .footer-subtitle {
     color: #FFF;
     text-align: center;
@@ -405,10 +523,13 @@ background: #FD9222;
     font-weight: 500;
     line-height: 1.29; /* 128.571% */
 }
+
 .footer-list {
 }
+
 .footer-item {
 }
+
 .footer-text {
     color: #FFF;    
     text-align: center;
@@ -416,12 +537,16 @@ background: #FD9222;
     font-weight: 500;
     line-height: 1.29; /* 128.571% */
 }
+
 .footer-addres {
 }
+
 .footer-addres-list {
 }
+
 .footer-addres-item {
 }
+
 .footer-addres-link {
     color: #FFF;
     text-align: center;
@@ -430,12 +555,16 @@ background: #FD9222;
     line-height: 1.29; /* 128.571% */
     letter-spacing: -0.02em;
 }
+
 .footer-nav {
 }
+
 .footer-nav-list {
 }
+
 .footer-nav-item {
 }
+
 .footer-nav-link {
     color: #FFF;
     font-size: 14px;
@@ -443,6 +572,7 @@ background: #FD9222;
     line-height: 1.14; /* 114.286% */
     letter-spacing: -0.02em;
 }
+
 .footer-button {
     color: #FFF;
     font-family: inherit;
