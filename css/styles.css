@@ -23,9 +23,8 @@ p{
 
 ul{
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
+    padding:0;
 }
 
 button{
@@ -185,11 +184,10 @@ button{
     padding: 50px;
 }
 .featurs-list {
-    list-style: none;
-    display: flex;
-    width: calc((100% - 176px) / 3);
+    display: flex;  
+    gap: 88px;
 }
-.featurs-item {
+.featurs-item{
 }
 .featurs-subtitle {
     color: #FFF;
