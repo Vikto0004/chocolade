@@ -112,6 +112,11 @@ button{
     gap: 14px;
 }
 
+.header-soc-icons{
+    fill: transparent;
+    stroke: #111;
+}
+
 .container{
     width: 100%;
     max-width: 1166px;
@@ -128,6 +133,10 @@ button{
 .hero-container{
     border-radius: 30px;
     background: rgba(17, 17, 17, 0.60);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../img/chocolate_main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 380px 40px 40px 40px;
     width: 1136px;
 }
@@ -318,12 +327,24 @@ button{
 }
 
 .made-item {
+    display: flex;
     color: #111;
-    font-size: 14px;
-    font-style: normal;
+    font-size: 14px; 
     font-weight: 400;
     line-height: 1.29; /* 128.571% */
     letter-spacing: -0.02em;
+    align-items: center;
+}
+
+.made-item::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #4C4C4C;
+    border-radius: 50%;
+    border: 1px solid #ECEDED;
+    flex-shrink: 0;
+    margin-right: 8px;
 }
 
 .made-text {
