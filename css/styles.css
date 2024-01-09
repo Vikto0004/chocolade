@@ -632,10 +632,18 @@ button{
     letter-spacing: -0.02em;
 }
 
+.footer-container-nav{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
 .footer-nav {
 }
 
 .footer-nav-list {
+    display: flex;
+    gap: 24px;
 }
 
 .footer-nav-item {
@@ -655,4 +663,15 @@ button{
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
+    margin-left: auto;
+    display: flex;
+    width: 137px;
+    height: 52px;
+    padding: 17px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border-radius: 100px;
+    background: #FD9222;
+    border: none;
 }
