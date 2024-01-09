@@ -322,6 +322,17 @@ button{
 
 }
 
+.container-made-icon{
+    position: relative;
+}
+
+.container-made-icon svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container-made{
     display: flex;
     margin-top: 50px;
