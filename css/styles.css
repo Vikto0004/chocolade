@@ -267,6 +267,14 @@ button{
     margin-top: 50px;
 }
 
+.taste-list li:nth-child(2),
+.taste-list li:nth-child(4),
+.taste-list li:nth-child(6){
+    background-color: #ffff;
+    border: 1px solid #FD9222;
+    color: #111;
+}
+
 .taste-item {
     border-radius: 15px;
     width: 260px;
@@ -274,10 +282,16 @@ button{
     flex-shrink: 0;
     background: #FD9222;
     padding: 28px 23px;
+    color: #FFF;
+
+}
+
+.taste-list li:nth-child(3),
+.taste-list li:nth-child(7){
+    background: #1E1823;
 }
 
 .taste-subtitle {
-    color: #FFF;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.28; /* 128.571% */
