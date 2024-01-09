@@ -333,6 +333,10 @@ button{
     transform: translate(-50%, -50%);
 }
 
+.container-made-icon svg:hover{
+    fill: #FD9222;
+}
+
 .container-made{
     display: flex;
     margin-top: 50px;
