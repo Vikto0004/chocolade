@@ -211,7 +211,7 @@ button{
     width: calc((100% - 176px) / 3);
 }
 
-.featurs-list-icon{
+.featurs-container-icon{
     display: flex;
     width: 62px;
     height: 62px;
