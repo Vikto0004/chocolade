@@ -472,24 +472,21 @@ button{
 }
 
 .loved-item {
-
-    border-radius: 15px;
-    border: 1px solid rgba(17, 17, 17, 0.10);
-    background: #FFF;
-    box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
     width: 360px;
-    height: 200px;
+    height: 242px;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .loved-cotainer{
     display: inline-flex;
+    width: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 18px;
-}
-
-.loved-img {
+    position: absolute;
+    transform: translate(-50%, 0);
 }
 
 .loved-suntitle {
@@ -498,11 +495,20 @@ button{
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33; /* 133.333% */
+    white-space: nowrap;
 }
 
 .loved-cotainer-text{
     display: flex;
     padding: 24px;
+    margin-top: 42px;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+    width: 360px;
+    height: 200px;
+    flex-shrink: 0;
 }
 
 .loved-text {
@@ -512,6 +518,17 @@ button{
     font-weight: 400;
     line-height: 1.29; /* 128.571% */
     letter-spacing: -0.02em;
+    width: 312px;
+    height: 72px;
+    flex-shrink: 0;
+    margin-top: 80px;
+}
+
+.loved-cotainer-buttom{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .loved-button {
@@ -520,12 +537,28 @@ button{
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
+    display: flex;
+    width: 222px;
+    height: 50px;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #FD9222;
+    background: #FAFAFA;
 }
 
    /*----FOOTER----*/
 
 .footer {
     background: #1E1823;
+    padding: 50px 0;
+}
+
+.footer-container{
+    display: flex;
 }
 
 .footer-heading {
@@ -535,10 +568,18 @@ button{
     font-weight: 500;
     line-height: 1.21;
     letter-spacing: -0.02em;
+    width: 300px;
 }
 
 .footer-heading span{
     color: #FD9222;
+}
+
+.footer-container-social{
+    display: flex;
+    flex-direction: column;
+    margin-left: 510px;
+    gap: 14px;
 }
 
 .footer-subtitle {
@@ -550,6 +591,8 @@ button{
 }
 
 .footer-list {
+    display: flex;
+    gap: 14px;
 }
 
 .footer-item {
@@ -563,10 +606,18 @@ button{
     line-height: 1.29; /* 128.571% */
 }
 
+.footer-container-contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 14px;
+}
+
 .footer-addres {
 }
 
 .footer-addres-list {
+    gap: 4px;
 }
 
 .footer-addres-item {
