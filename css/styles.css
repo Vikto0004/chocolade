@@ -331,6 +331,7 @@ button{
 }
 
 .container-made-icon a svg{
+    stroke: #ffff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -344,9 +345,6 @@ button{
 .container-made{
     display: flex;
     margin-top: 50px;
-}
-
-.made-img {
 }
 
 .container-made-list{
