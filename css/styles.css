@@ -117,7 +117,8 @@ button{
     stroke: #111;
 }
 
-.header-soc-icons:hover{
+.header-soc-icons:hover,
+.footer-soc-icons:hover{
     stroke: #FD9222;
 }
 
@@ -595,7 +596,9 @@ button{
     gap: 14px;
 }
 
-.footer-item {
+.footer-soc-icons{
+    fill: transparent;
+    stroke:#FFF;
 }
 
 .footer-text {
