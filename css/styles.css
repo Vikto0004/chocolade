@@ -335,6 +335,7 @@ button{
 
 .container-made-icon a svg:hover{
     stroke: #FD9222;
+    fill:#FD9222;
 }
 
 .container-made{
