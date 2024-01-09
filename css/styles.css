@@ -211,6 +211,19 @@ button{
     width: calc((100% - 176px) / 3);
 }
 
+.featurs-list-icon{
+    display: flex;
+    width: 62px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.303px;
+    flex-shrink: 0;
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    margin-bottom: 22px;
+}
+
 .featurs-subtitle {
     color: #FFF;
     font-size: 18px;
@@ -283,7 +296,6 @@ button{
     background: #FD9222;
     padding: 28px 23px;
     color: #FFF;
-
 }
 
 .taste-list li:nth-child(3),
