@@ -107,6 +107,10 @@ button{
     letter-spacing: -0.02em;
 }
 
+.header-nav-link:hover{
+    color: #FD9222;
+}
+
 .header-soc-list{
     display: flex;
     gap: 14px;
@@ -696,6 +700,10 @@ button{
     font-weight: 500;
     line-height: 1.14; /* 114.286% */
     letter-spacing: -0.02em;
+}
+
+.footer-nav-link:hover{
+    color: #FD9222;
 }
 
 .footer-button {
