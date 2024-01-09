@@ -117,6 +117,10 @@ button{
     stroke: #111;
 }
 
+.header-soc-icons:hover{
+    stroke: #FD9222;
+}
+
 .container{
     width: 100%;
     max-width: 1166px;
