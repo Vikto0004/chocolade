@@ -770,3 +770,133 @@ button{
     background: #FD9222;
     border: none;
 }
+
+
+.backrop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(8, 2, 21, 0.5);
+}
+
+.modal{
+    width: 517px;
+    height: 794px;
+    position: absolute;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
+
+.model-close-btn{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #513a9b;
+    background-color: #6a55b1;
+    border-radius: 50px;
+}
+
+.model-title{
+    color: #111;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    max-width: 298px;
+    margin-bottom: 42px;
+}
+
+.model-title span{
+    color: #FD9222;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.model-input{
+    display: flex;
+    width: 437px;
+    height: 68px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);
+    background-color: transparent;
+    margin-bottom: 18px;
+    padding-left: 20px;
+    outline: transparent;
+}
+
+.model-input:focus{
+    border-color: #FD9222;
+}
+
+.model-input:focus + .modal-icon{
+    stroke: #FD9222;
+}
+
+.form-button{
+    display: inline-flex;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    border-radius: 100px;
+    background: #FD9222;
+}
+
+.model-input::placeholder{
+    color: #555350;
+}
+
+.model-label{
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(64, 64, 64, 0.30);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.modal-input-wrap{
+    position: relative;
+}
+
+.modal-icon{
+    fill: transparent;
+    stroke: #404040;
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.model-text{
+    display: flex;
+    width: 437px;
+    height: 137px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);
+    background-color: transparent;
+    padding: 24px 24px;
+    outline: transparent;
+    resize: none;
+}
