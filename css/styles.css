@@ -754,6 +754,8 @@ button{
 
 .footer-form{
     margin-left:auto;
+    display: flex;
+    gap: 8px;
 }
 
 .footer-input{
@@ -789,7 +791,6 @@ button{
     border-radius: 100px;
     background: #FD9222;
     border: none;
-    margin-left: 8px;
 }
 
    /*----BACKROP----*/
