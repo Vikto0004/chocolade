@@ -752,13 +752,33 @@ button{
     color: #FD9222;
 }
 
+.footer-form{
+    margin-left:auto;
+}
+
+.footer-input{
+    display: flex;
+    width: 313px;
+    height: 52px;
+    padding: 14px 24px;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
 .footer-button {
     color: #FFF;
     font-family: inherit;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
-    margin-left: auto;
     display: flex;
     width: 137px;
     height: 52px;
@@ -769,6 +789,7 @@ button{
     border-radius: 100px;
     background: #FD9222;
     border: none;
+    margin-left: 8px;
 }
 
    /*----BACKROP----*/
@@ -901,46 +922,55 @@ button{
     gap: 14px;
     border-radius: 100px;
     background: #FD9222;
+    margin-top: 40px;
+    border: none;
 }
 
-.check-innput {
+.modal-field{
+    margin-top: 18px;
+}
+
+.modal-field label{
+    display: flex;
+    align-items: center;
 }
 
 .check-text {
     color: rgba(64, 64, 64, 0.60);
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.02em;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
 }
 
 .check-link{
     color: var(--orange, #FD9222);
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.02em;
-text-decoration-line: underline;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    margin-left: 2px;
 }
 
 .check-text span{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-width: 20px;
-height: 20px;
-border-radius: 6px;
-border: 1px solid rgba(0, 0, 0, 0.03);
-background-color: transparent;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    background-color: transparent;
+    fill: transparent;
+    margin-right: 12px;
+    justify-content: center;
 }
 
 .check-innput:checked + .check-text span{
     background-color: #FD9222;
     border: none;
-}
-
-.check-icon{
     fill: #FFF;
 }
