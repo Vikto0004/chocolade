@@ -902,3 +902,45 @@ button{
     border-radius: 100px;
     background: #FD9222;
 }
+
+.check-innput {
+}
+
+.check-text {
+    color: rgba(64, 64, 64, 0.60);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.02em;
+}
+
+.check-link{
+    color: var(--orange, #FD9222);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.02em;
+text-decoration-line: underline;
+}
+
+.check-text span{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 20px;
+height: 20px;
+border-radius: 6px;
+border: 1px solid rgba(0, 0, 0, 0.03);
+background-color: transparent;
+}
+
+.check-innput:checked + .check-text span{
+    background-color: #FD9222;
+    border: none;
+}
+
+.check-icon{
+    fill: #FFF;
+}
